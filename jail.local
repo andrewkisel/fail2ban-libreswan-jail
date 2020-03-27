@@ -6,4 +6,5 @@ port     = 500
 protocol = udp
 filter   = libreswan
 logpath  = /var/log/auth.log
-maxretry = 3
+# The number is a little high as we can see around 10 login attemtps within signle login session (VPN client automatically retries multiple times).
+maxretry = 15
