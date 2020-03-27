@@ -1,0 +1,9 @@
+# Fail2Ban configuration fragment for Libreswan
+
+[libreswan]
+enabled  = true
+port     = 500
+protocol = udp
+filter   = libreswan
+logpath  = /var/log/auth.log
+maxretry = 3
