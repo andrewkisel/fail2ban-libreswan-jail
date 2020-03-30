@@ -9,7 +9,7 @@ Basic Fail2Ban filter and jail configuration for Libreswan.
 
 In order to install it in your system, please follow these steps:
 - Copy `libreswan.conf` into `/etc/fail2ban/filters.d/` directory.
-- Copy and append contents of the file `jail.local` to `/etc/fail2ban/jail.local`. If it doesn't exist - just copy the file from this repo.
+- Append contents of the file `jail.local` to `/etc/fail2ban/jail.local`. If it doesn't exist - just copy the file from this repo.
 - Run `sudo service fail2ban restart` and it should work.
 
 ### Testing
