@@ -24,8 +24,8 @@ to run the `libreswan.conf` filter against existing log in `/var/log/auth.log.1`
 This has only been tested on Debian 10 w/Fail2Ban v0.10.2 and Libreswan 3.29. 
 
 P.S: I don't see any reason why it would not be compatible with other versions, but have not verified.
-The only thing that might change from version to version is log entry format. Adjust the regex accordingly.
+The only thing that I think might change from version to version is log entry format. Adjust the regex accordingly.
 
 ---
 
-© [Andrew Kisel](https://kisel.kisels.net/)
+© [Andrew Kisel](http://kisel.kisels.net/)
